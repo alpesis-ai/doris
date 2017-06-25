@@ -5,7 +5,7 @@ FROM ubuntu:trusty
 WORKDIR /doris
 
 # Copy the current directory contents into the container at /doris
-ADD . /doris/
+ADD . /doris
 
 # Install any needed packages sepecified in requirements.txt
 # RUN pip install -r requirements.txt
